@@ -1,0 +1,18 @@
+name: ml-dl-project-training
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - scipy
+  - pydot
+  - graphviz
+  - pandas
+  - pip
+  - pip:
+      - "tensorflow[and-cuda]"
+      - adversarial-robustness-toolbox
+variables:
+  TF_FORCE_GPU_ALLOW_GROWTH: "true"

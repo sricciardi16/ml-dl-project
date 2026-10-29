@@ -1,0 +1,10 @@
+ipykernel
+matplotlib
+numpy
+scikit-learn
+scipy
+pydot
+graphviz
+ipywidgets
+pandas
+tensorflow
