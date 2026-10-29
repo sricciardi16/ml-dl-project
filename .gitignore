@@ -9,7 +9,6 @@ env/
 .DS_Store
 .stfolder/
 .stignore
-data
 saved_models/
 *.json
 *.csv.gz
